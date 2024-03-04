@@ -1,3 +1,9 @@
+<style>
+  img{
+    text-align: center;
+    width:400;
+    height:300;
+</style>
 
 <img src ="./assets/hbnb_logo.png" width="400" height="256" />
 <H1>The 0x00. AirBnB clone - The console Project<H1>
