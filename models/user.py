@@ -9,5 +9,5 @@ class User(BaseModel):
     last_name = ""
 
      def __init__(self, *args, **kwargs):
-        """Initialize User instance"""
+        """Initializes the User instance"""
         super().__init__(*args, **kwargs)
