@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-"""Creating the user subclass"""
+"""This module creates a User class"""
 from models.base_model import BaseModel
 
+
 class User(BaseModel):
+    """Class for managing user objects email, password."""
+
     email = ""
     password = ""
     first_name = ""
     last_name = ""
-
-     def __init__(self, *args, **kwargs):
-        """Initializes the User instance"""
-        super().__init__(*args, **kwargs)
