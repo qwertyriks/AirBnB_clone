@@ -1,8 +1,12 @@
 #!/usr/bin/python3
-"""create subclass place"""
+"""This module creates a Place class"""
+
 from models.base_model import BaseModel
 
+
 class Place(BaseModel):
+    """Class for managing place objects name, latitude,user id ...etc."""
+
     city_id = ""
     user_id = ""
     name = ""
@@ -14,4 +18,3 @@ class Place(BaseModel):
     latitude = 0.0
     longitude = 0.0
     amenity_ids = []
-
