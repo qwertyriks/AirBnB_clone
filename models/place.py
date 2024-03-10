@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Defines the Place class."""
+'''Defines the Place subclass.'''
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """Represent a place.
+   '''Represent a place.
 
     Attributes:
         city_id (str): The City id.
@@ -18,7 +18,7 @@ class Place(BaseModel):
         latitude (float): The latitude of the place.
         longitude (float): The longitude of the place.
         amenity_ids (list): A list of Amenity ids.
-    """
+    '''
 
     city_id = ""
     user_id = ""
