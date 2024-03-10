@@ -1,6 +1,10 @@
 #!/usr/bin/python3
-"""Create state subclass of the basemodel"""
+"""This module creates a User class"""
+
 from models.base_model import BaseModel
 
+
 class State(BaseModel):
+    """Class for managing state objects name."""
+
     name = ""
