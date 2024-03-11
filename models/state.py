@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Write the State subclass."""
+"""Defines the State class."""
 from models.base_model import BaseModel
 
 
