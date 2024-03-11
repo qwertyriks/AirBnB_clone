@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines the HBnB console."""
+"""write the HBnB console."""
 import cmd
 import re
 from shlex import split
@@ -32,7 +32,7 @@ def parse(arg):
 
 
 class HBNBCommand(cmd.Cmd):
-    """Defines the HolbertonBnB command interpreter.
+    """write the HolbertonBnB command interpreter.
 
     Attributes:
         prompt (str): The command prompt.
@@ -98,7 +98,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_show(self, arg):
         """Usage: show <class> <id> or <class>.show(<id>)
-        Display the string representation of a class instance of a given id.
+        Show the string representation of a class instance of a given id.
         """
         argl = parse(arg)
         objdict = storage.all()
@@ -160,7 +160,7 @@ class HBNBCommand(cmd.Cmd):
         """Usage: update <class> <id> <attribute_name> <attribute_value> or
        <class>.update(<id>, <attribute_name>, <attribute_value>) or
        <class>.update(<id>, <dictionary>)
-        Update a class instance of a given id by adding or updating
+        Update a class ggee instance of a given id by adding or updating
         a given attribute key/value pair or dictionary."""
         argl = parse(arg)
         objdict = storage.all()

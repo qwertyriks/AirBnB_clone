@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Defines unittests for models/amenity.py.
+"""Writes unittests for models/amenity.py.
 
-Unittest classes:
+Unit test classes:
     TestAmenity_instantiation
     TestAmenity_save
     TestAmenity_to_dict
@@ -15,7 +15,7 @@ from models.amenity import Amenity
 
 
 class TestAmenity_instantiation(unittest.TestCase):
-    """Unittests for testing instantiation of the Amenity class."""
+    """Unit tests for testing TestAmenity_instantiation"""
 
     def test_no_args_instantiates(self):
         self.assertEqual(Amenity, type(Amenity()))
@@ -72,7 +72,7 @@ class TestAmenity_instantiation(unittest.TestCase):
         self.assertNotIn(None, am.__dict__.values())
 
     def test_instantiation_with_kwargs(self):
-        """instantiation with kwargs test method"""
+        """Test_instantiation_with_kwargs test method"""
         dt = datetime.today()
         dt_iso = dt.isoformat()
         am = Amenity(id="345", created_at=dt_iso, updated_at=dt_iso)
@@ -86,7 +86,7 @@ class TestAmenity_instantiation(unittest.TestCase):
 
 
 class TestAmenity_save(unittest.TestCase):
-    """Unittests for testing save method of the Amenity class."""
+    """Unit tests for testing save method ofTestAmenity_save"""
 
     @classmethod
     def setUp(self):
@@ -137,7 +137,7 @@ class TestAmenity_save(unittest.TestCase):
 
 
 class TestAmenity_to_dict(unittest.TestCase):
-    """Unittests for testing to_dict method of the Amenity class."""
+    """Unit tests for testing to_dict method TestAmenity_to_dict"""
 
     def test_to_dict_type(self):
         self.assertTrue(dict, type(Amenity().to_dict()))
