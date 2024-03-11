@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Writes unittests for models/review.py.
 
-Unit test classes:
+Unittest classes:
     TestReview_instantiation
     TestReview_save
     TestReview_to_dict

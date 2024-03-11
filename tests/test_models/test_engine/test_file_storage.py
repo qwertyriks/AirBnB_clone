@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Writes unittests for models/engine/file_storage.py.
 
-Unit test classes:
+Unittest classes:
     TestFileStorage_instantiation
     TestFileStorage_methods
 """

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Writes unittests for models/city.py.
 
-Unit test classes:
+Unittest classes:
     TestCity_instantiation
     TestCity_save
     TestCity_to_dict

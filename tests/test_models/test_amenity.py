@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Writes unittests for models/amenity.py.
 
-Unit test classes:
+Unittest classes:
     TestAmenity_instantiation
     TestAmenity_save
     TestAmenity_to_dict

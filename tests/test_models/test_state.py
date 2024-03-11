@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Writes unittests for models/state.py.
 
-Unit test classes:
+Unittest classes:
     TestState_instantiation
     TestState_save
     TestState_to_dict

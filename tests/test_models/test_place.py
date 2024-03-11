@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Writes unittests for models/place.py.
 
-Unit test classes:
+Unittest classes:
     TestPlace_instantiation
     TestPlace_save
     TestPlace_to_dict

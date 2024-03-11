@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Writes unittests for models/base_model.py.
 
-Unit test classes:
+Unittest classes:
     TestBaseModel_instantiation
     TestBaseModel_save
     TestBaseModel_to_dict
